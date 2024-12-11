@@ -11,14 +11,14 @@ These standards are based on the PHP, Laravel and Vue3 recommendations.
 * Spatie.be - https://spatie.be/guidelines/laravel-php#content-views
 
 # INDEX
-* Folders
-* Files
-* Components
-* Vue Props
-* Arguments
-* Variables
+* [Folders](https://github.com/myosotisgit/coding-standards#folders)
+* [Files](https://github.com/myosotisgit/coding-standards#files)
+* [Components](https://github.com/myosotisgit/coding-standards#components)
+* [Vue Props](https://github.com/myosotisgit/coding-standards#props)
+* [Arguments](https://github.com/myosotisgit/coding-standards#arguments)
+* [Variables](https://github.com/myosotisgit/coding-standards#variables)
 
-## Folder naming
+# Folders
 
 ### Project (root) folders: lowercase
 
@@ -45,8 +45,9 @@ For other folders, not referring to model/class it uses lowercase
 database/factories/
 resources/js/components/
 ```
+# Files
 
-## File names: PascalCase / lowercase
+### File names: PascalCase / lowercase
 > Laravel
 When a file is referring to a model/class it uses PascalCase
 ```
@@ -57,6 +58,8 @@ For other folders, not referring to model/class it uses lowercase
 ```
 config/broadcasting.php
 ```
+
+# Components
 
 ## Components - PascalCase
 
@@ -103,7 +106,8 @@ Components with no content should be self-closing in Single-File Components, str
 <ModalConfirm />
 ```
 
-## VUE Props - camelCase
+# Props 
+## VUE - camelCase
 
 ### Use detailed prop definitions​
 In committed code, prop definitions should always be as detailed as possible, specifying at least type(s).
@@ -138,8 +142,9 @@ Elements with multiple attributes should span multiple lines, with one attribute
 />
 ```
 
-## Variables - camelCase, snake_case
+# Variables
 
+## Javascript
 ```
 JS: camelCase
 .env : SCREAMING_SNAKE_CASE
