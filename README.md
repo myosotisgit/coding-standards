@@ -12,7 +12,7 @@ These standards are based on the PHP, Laravel and Vue3 recommendations.
 
 # INDEX
 * [Folders](#folders)
-* [Files]#files)
+* [Files](#files)
 * [Components](#components)
 * [Vue Props](#props)
 * [Arguments](#arguments)
@@ -49,12 +49,13 @@ resources/js/components/
 
 ### File names: PascalCase / lowercase
 > Laravel
+
 When a file is referring to a model/class it uses PascalCase
 ```
 app/Actions/CreateNewUser.php
 app/Console/Kernel.php
 ```
-For other folders, not referring to model/class it uses lowercase
+For other folders, not referring to model/classes it uses lowercase
 ```
 config/broadcasting.php
 ```
@@ -104,10 +105,11 @@ Components with no content should be self-closing in Single-File Components, str
 
 ```
 <ModalConfirm />
+<!-- In in-DOM templates -->
+<my-component></my-component>
 ```
 
 # Props 
-## VUE - camelCase
 
 ### Use detailed prop definitions​
 In committed code, prop definitions should always be as detailed as possible, specifying at least type(s).
