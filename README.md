@@ -11,12 +11,12 @@ These standards are based on the PHP, Laravel and Vue3 recommendations.
 * Spatie.be - https://spatie.be/guidelines/laravel-php#content-views
 
 # INDEX
-* [Folders](https://github.com/myosotisgit/coding-standards#folders)
-* [Files](https://github.com/myosotisgit/coding-standards#files)
-* [Components](https://github.com/myosotisgit/coding-standards#components)
-* [Vue Props](https://github.com/myosotisgit/coding-standards#props)
-* [Arguments](https://github.com/myosotisgit/coding-standards#arguments)
-* [Variables](https://github.com/myosotisgit/coding-standards#variables)
+* [Folders](#folders)
+* [Files]#files)
+* [Components](#components)
+* [Vue Props](#props)
+* [Arguments](#arguments)
+* [Variables](#variables)
 
 # Folders
 
